@@ -391,7 +391,7 @@ angular.module('bw.paging', []).directive('paging', function () {
         scope.List.push({
             value: scope.dots,
             aClass: scope.defaultAClass,
-            liClass: scope.disabledClass
+            liClass: scope.disabledClass + ' ' + scope.defaultLiClass
         });
     }
 
